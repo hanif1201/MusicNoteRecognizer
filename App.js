@@ -23,7 +23,11 @@ export default function App() {
         }}
       >
         <Stack.Screen name='Home' component={HomeScreen} />
-        <Stack.Screen name='Upload' component={UploadScreen} />
+        <Stack.Screen
+          name='Upload'
+          component={UploadScreen}
+          options={{ title: "Upload" }}
+        />
         <Stack.Screen name='Results' component={ResultsScreen} />
       </Stack.Navigator>
     </NavigationContainer>

@@ -15,7 +15,7 @@ export default function HomeScreen() {
 
       <TouchableOpacity
         style={styles.uploadButton}
-        onPress={() => navigation.navigate("Upload")}
+        onPress={() => navigation.navigate("upload")}
       >
         <Text style={styles.uploadButtonText}>Upload Sheet Music</Text>
       </TouchableOpacity>
